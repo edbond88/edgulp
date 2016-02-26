@@ -150,7 +150,7 @@ gulp.task('iconfont', function(){
             fontName: fontName,
             formats: ['svg', 'ttf', 'eot', 'woff', 'woff2'],
             startUnicode: true,
-            appendUnicode: true,
+            prependUnicode: true,
             normalize: true,
             fontHeight: 1001,
             centerHorizontally: true
